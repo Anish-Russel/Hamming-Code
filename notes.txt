@@ -1,0 +1,20 @@
+                              +-HAMMING CODE-+
+                              
+  * Set of error-correction codes that can be used to detect and correct the errors.
+  * Widely used in computer networks.
+  
+Reduntant Bits:
+  + Extra binary bits that are generated and added to the information-carrying bits of data transfer.
+  + Formula to calculate reduntant bits.
+                       ------------------------------
+                      |         2^r > m +r+1         |
+                       ------------------------------
+                       
+Parity Bits:
+  + A bit appended to a data of binary bits to ensure that the total number of 1’s in the data are even or odd.
+  + Used for error detection.
+  ----> Even Parity Bit:
+        + count 1, if (count == odd) parity_bit = 1; else parity_bit = 0;
+  ----->Odd Parity Bit:
+        + count 1, if (count == even) parity_bit = 1; else parity_bit = 0;
+        
