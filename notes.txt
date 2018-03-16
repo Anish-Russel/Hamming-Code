@@ -18,3 +18,4 @@ Parity Bits:
   ----->Odd Parity Bit:
         + count 1, if (count == even) parity_bit = 1; else parity_bit = 0;
         
+Refer [this](https://www.geeksforgeeks.org/computer-network-hamming-code) link for further information
